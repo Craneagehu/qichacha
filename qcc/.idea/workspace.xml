@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/qichacha.py" line="56" />
+    <bookmark url="file://$PROJECT_DIR$/qichacha.py" line="58" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7cb3f27-d87b-4ff9-9a8c-276b953a1a70" name="Default" comment="">
@@ -25,10 +25,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/qichacha$app.coverage" NAME="app Coverage Results" MODIFIED="1571382941313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qichacha_flask" />
+    <SUITE FILE_PATH="coverage/qcc$app.coverage" NAME="app Coverage Results" MODIFIED="1571386484772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qichacha_flask" />
+    <SUITE FILE_PATH="coverage/qcc$qichacha.coverage" NAME="qichacha Coverage Results" MODIFIED="1571388655010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/qichacha$qichacha.coverage" NAME="qichacha Coverage Results" MODIFIED="1571304786573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,6 +44,8 @@
       <find>href</find>
       <find>firm</find>
       <find>response</find>
+      <find>sear</find>
+      <find>content</find>
     </findStrings>
     <replaceStrings>
       <replace>html</replace>
@@ -53,8 +57,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/qichacha.py" />
         <option value="$PROJECT_DIR$/qichacha_flask/app.py" />
+        <option value="$PROJECT_DIR$/qichacha.py" />
       </list>
     </option>
   </component>
@@ -67,7 +71,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="147" />
     <option name="y" value="409" />
     <option name="width" value="1390" />
@@ -83,8 +87,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="qichacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qichacha" type="462c0819:PsiDirectoryNode" />
+              <item name="qcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qcc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qcc" type="462c0819:PsiDirectoryNode" />
+              <item name="qichacha_flask" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.qichacha">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qichacha" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,8 +174,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.qichacha" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -184,16 +193,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2832244" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42966193" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11247335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.081023455" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -237,30 +246,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../flight-spyder/veryaccurate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../flight-spyder/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="94" column="4" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../convert/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#22#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../flight-spyder/veryaccurate.py" />
+    <entry file="file://$PROJECT_DIR$/../flight-spyder/app.py" />
+    <entry file="file://$PROJECT_DIR$/../convert/app.py" />
     <entry file="file://$PROJECT_DIR$/qichacha_flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="55">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="e#22#63#0" expanded="true" />
           </folding>
@@ -269,8 +261,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qichacha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="204" column="16" lean-forward="true" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="29" />
+        <state relative-caret-position="134">
+          <caret line="200" column="9" lean-forward="true" selection-start-line="200" selection-start-column="9" selection-end-line="200" selection-end-column="9" />
+          <folding>
+            <element signature="e#22#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

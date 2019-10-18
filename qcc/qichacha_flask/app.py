@@ -11,9 +11,12 @@ app = Flask(__name__)
 @app.route('/api/qichacha',methods=['GET','POST'])
 def qichacha():
     if request.method =='GET':
+        dic = {}
         company = request.args.get('company')
         result = qcc(company)
-        data = jsonify(result)
+        dic['msg']=result
+        dic['reason'] = '查询成功'
+        data = jsonify(dic)
     return data
 
 
